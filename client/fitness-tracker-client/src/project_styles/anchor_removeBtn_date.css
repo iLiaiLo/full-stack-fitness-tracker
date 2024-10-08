@@ -1,0 +1,29 @@
+a{
+    font-size:20px;
+    text-decoration: none;
+    color:#1111ad;
+}
+a:hover{
+    color:#05057a;
+    text-shadow:0 0 1px blue;
+}
+
+.remove-activity{
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    background-color: #ff7f50f3;
+    font-size:17px;
+    color:white;
+    cursor: pointer;    
+}
+.remove-activity:hover{
+    background-color: #ff662ff5;
+}
+
+.date{
+    font-style: italic;
+    color:#ffffff;
+    text-shadow: 0 0 5px black;
+    font-size:18px;
+}

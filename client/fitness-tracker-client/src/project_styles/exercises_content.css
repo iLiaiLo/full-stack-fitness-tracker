@@ -1,0 +1,37 @@
+.exercise{
+    border:1px solid rgb(31, 31, 31);
+    box-shadow: 0 0 3px #202220;
+    overflow: auto;
+    width:min(300px,90%);
+    height:170px;
+    scrollbar-width: none;
+}
+
+.task{
+    padding:0 2px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    margin:0 0 10px 0;
+}
+.task>li{
+    list-style-type: none;
+    font-size:18px;
+    padding:3px 0px;
+    text-shadow:0 0 1px grey;
+    letter-spacing: 0.5px;
+}
+
+.task>li>button{
+   cursor: pointer;
+   margin-right: 10px;
+   border:none;
+   background-color: lightslategray; 
+   color:white;
+   border-radius: 3px;
+   padding:5px;
+}
+
+.task>li>button:hover{
+    background-color: rgb(89, 109, 129);
+}
+
